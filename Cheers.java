@@ -11,7 +11,7 @@ public class Cheers {
             letter = fullWord.charAt(i);
             System.out.print("Give me ");
             if (replaceA.indexOf(letter) >= 0)
-                System.out.print("an  ");
+                System.out.print("an ");
             else
                 System.out.print("a  ");
             System.out.println(letter + ": " + letter + "!");
